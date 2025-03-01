@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100vh;
+  /* position: relative; */
+}
+
+.box {
+  padding: 50px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* width: 100vh; */
+  /* background: white; */
+  backdrop-filter: blur(2px);
+  position: fixed;
+}
+
+.modal {
+  width: 500px;
+  padding: 32px;
+
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin: 25px;
+  background: white;
+  color: black;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: rgb(32, 134, 197);
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.green {
+  background-color: forestgreen;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 30px;
+}
